@@ -1,7 +1,7 @@
 import React from 'react'
 import { Square, Box } from '@chakra-ui/react'
-import { CheckIcon, CloseIcon } from '../../icons'
 import { SquareProps } from '@chakra-ui/layout'
+import { BiCheck, BiWindowClose } from 'react-icons/bi'
 
 interface SquareCheckProps extends SquareProps {
   isChecked?: boolean
@@ -23,7 +23,7 @@ const SquareCheck: React.FC<SquareCheckProps> = ({ isChecked, ...rest }) => {
         pos='absolute'
         transform={isChecked ? 'rotate(0deg)' : 'rotate(30deg)'}
       >
-        <CheckIcon size={20} />
+        <BiCheck size={20} />
       </Box>
       <Box
         transition='all .15s ease-in-out'
@@ -31,7 +31,7 @@ const SquareCheck: React.FC<SquareCheckProps> = ({ isChecked, ...rest }) => {
         pos='absolute'
         transform={isChecked ? 'rotate(180deg)' : 'rotate(0deg)'}
       >
-        <CloseIcon size={20} />
+        <BiWindowClose size={20} />
       </Box>
     </Square>
   )

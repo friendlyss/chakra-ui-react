@@ -1,10 +1,10 @@
 import React from 'react'
-
-import { ExampleComponent } from '@friendlyss/react'
-import '@friendlyss/react/dist/index.css'
+import { Modal } from '@friendlyss/react'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div>
+    FriendlySource Docs, Coming Soon!
+  </div>
 }
 
 export default App

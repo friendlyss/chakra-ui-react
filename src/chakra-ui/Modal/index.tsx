@@ -13,12 +13,11 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import React from 'react'
-import { Disclosure } from '@friendlyss/react-boost/types'
 import { Col, Row, TextMini } from '../..'
-import { useDisclosure } from '../../hooks'
+import { useDisclosure, Type } from '@friendlyss/disclosure'
 
 interface ModalProps {
-  name: keyof Disclosure
+  name: keyof Type
   title?: string
   description?: string
   _modal?: Partial<ModalChakraProps>
