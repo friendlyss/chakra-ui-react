@@ -1,6 +1,6 @@
 {
   "name": "@friendlyss/react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Made with create-react-library",
   "author": "kodiyak",
   "license": "MIT",
@@ -24,22 +24,20 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@chakra-ui/react": "^1.6.3",
+    "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@friendlyss/disclosure": "^1.0.4",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
-    "file-size": "^1.0.0",
     "framer-motion": "^4",
-    "react": "^16.0.0",
-    "react-dom": "^16.13.1",
-    "yup": "^0.32.9"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
-    "@friendlyss/disclosure": "^1.0.1",
+    "@friendlyss/disclosure": "^1.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -81,14 +79,15 @@
     "dist"
   ],
   "dependencies": {
-    "@chakra-ui/react": "^1.6.3",
+    "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@friendlyss/disclosure": "^1.0.4",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
     "file-size": "^1.0.0",
     "framer-motion": "^4",
-    "react": "^16.0.0",
+    "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "yup": "^0.32.9"
   }
