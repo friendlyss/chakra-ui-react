@@ -1859,10 +1859,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@friendlyss/disclosure@^1.0.1":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@friendlyss/disclosure/-/disclosure-1.0.4.tgz#2fbc1c74dd0a98761ec3f2cb93a70defefc2bf43"
-  integrity sha512-IKOHPLMwE0xNNTTl9ed9TVoIX2qBWuCxoLsL0wl6HNQ2unvBlh/vOXRXccJGCUYep8xfK32g1Kd3lDQDPFHKwg==
+"@friendlyss/disclosure@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@friendlyss/disclosure/-/disclosure-1.0.5.tgz#e66bb60d5675070a1422ff5fe15315579c6fece3"
+  integrity sha512-xLTReQyajHCFW/GEuCyw7i8CO316xrAN6s2Rpgz86LeXNlDuQm62b14NP30CCY0j0zjCTDD0Cm09MdjqeARYuA==
+  dependencies:
+    tiny-typed-emitter "^2.0.3"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -12158,6 +12160,11 @@ tiny-invariant@^1.0.6:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
   integrity sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
+
+tiny-typed-emitter@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/tiny-typed-emitter/-/tiny-typed-emitter-2.0.3.tgz#4335e3a75127ae7faba91b02e91615d97dc8db7d"
+  integrity sha512-MaCqhHlp6EAWN25yqBlajgd4scxxI2eJr7+EgoUAOV9UkMU3us/yp2bEnc2yOvyeDF8TUWuaz3zZCPGTKFJIpA==
 
 tinycolor2@1.4.2:
   version "1.4.2"
