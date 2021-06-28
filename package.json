@@ -30,7 +30,10 @@
     "file-size": "^1.0.0",
     "framer-motion": "^4",
     "react": "^16.0.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "@chakra-ui/react": "^1.6.4",
